@@ -3,7 +3,7 @@ import random
 plays = {1:'Rock',2:'Paper',3:'Scissor'}
 lose = 0
 win = 0
-#userPlay = input('Enter Rock, Paper, Sciscor \n')
+#userPlay = input('Enter Rock, Paper, Scisscor \n')
 def game():
     global win
     global lose
