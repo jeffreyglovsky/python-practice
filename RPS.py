@@ -42,10 +42,10 @@ def playGame():
         game()    
         play = input('Play again? Yes/See Score/End \n')
         if play == 'Yes':
-            playGame()
+            pass
         elif play == 'See Score':
             print('You won', win,'times and lost',lose,'times')
-            playGame()
+            pass)
         else:
             print('Thanks for playing')
             break
